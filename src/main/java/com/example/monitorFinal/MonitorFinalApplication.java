@@ -24,8 +24,8 @@ public class MonitorFinalApplication {
 	public String home()
 	{
 		BrowseTable bt = new BrowseTable();
-		String table = "jai_us_states_table";
-		String dataset = "jai_us_states_dataset";
+		String table = "USER_082022_us_states_table";
+		String dataset = "USER_082022_us_states_dataset";
 		bt.browseTable(dataset, table);
 
 		return String.format("Hello World");
